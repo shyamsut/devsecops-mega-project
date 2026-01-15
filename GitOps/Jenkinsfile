@@ -68,7 +68,7 @@ pipeline {
                         git commit -m "Updated environment variables"
                         
                         echo "Pushing changes to github: "
-                        git push https://github.com/LondheShubham153/Wanderlust-Mega-Project.git main
+                        git push https://github.com/shyamsut/devsecops-mega-project.git main
                     '''
                     }
                 }
@@ -96,7 +96,7 @@ pipeline {
                     </body>
                     </html>
             """,
-            to: 'trainwithshubham@gmail.com',
+            to: 's.sunder8824@gmail.com',
             mimeType: 'text/html'
             }
         }
